@@ -27,7 +27,6 @@ export default function Home() {
       <div className="flex h-screen max-sm:h-full w-screen flex-col max-sm:flex-col-reverse md:flex-row">
         <div className="flex flex-col items-center justify-center w-full md:w-[60%] h-screen bg-desktop-pattern bg-no-repeat bg-center bg-cover gap-10 md:gap-32">
           <div className="w-5/6 md:w-[60%] h-[80%] flex flex-col gap-5">
-            {/* Logo and Heading */}
             <div className="flex items-center gap-3 order-first">
               <div className="flex justify-center items-center h-9 w-9 bg-gradient-135 from-lightRed to-roseRed rounded-full">
                 <div className="h-7 w-7 bg-white rounded-full"></div>
@@ -37,7 +36,6 @@ export default function Home() {
               </span>
             </div>
 
-            {/* Coming Soon Text */}
             <div className="mt-10 max-sm:text-center">
               <h1 className="flex flex-col text-[40px] md:text-[80px] light text-desaturatedRed max-md:tracking-[5px] lg:tracking-[15px] leading-none">
                 WE'RE
@@ -45,14 +43,12 @@ export default function Home() {
               </h1>
             </div>
 
-            {/* Description */}
             <div className="lg:pr-28">
               <p className="text-desaturatedRed max-sm:text-center">
                 Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
               </p>
             </div>
 
-            {/* Form */}
             <form onSubmit={handleSubmit} className="relative">
               <div className={`flex items-center max-md:w-full lg:w-[470px] h-[50px] rounded-full border-2 ${error ? "border-softRed" : "border-hoverLightRed"}`}>
                 <input
@@ -92,8 +88,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right Image Section */}
-        <div className="block max-md:w-[30%] w-[40%] md:h-screen sm:bg-hero-mobile  md:bg-hero-desktop bg-no-repeat bg-center bg-cover order-1 md:order-2"></div>
+        <div className="block max-md:w-[30%] w-[40%] md:h-screen sm:bg-hero-mobile  md:bg-hero-desktop bg-no-repeat bg-center bg-cover"></div>
       </div>
     </main>
   );
