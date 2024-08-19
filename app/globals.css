@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 *{
-  font-family: "Josefin Sans";
+  font-family: "JosefinSans-Regular";
+}
+
+@font-face {
+  font-family: "JosefinSans-Light";
+  src: url("/fonts/JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JosefinSans-Bold";
+  src: url("/fonts/JosefinSans-Bold.ttf") format("truetype");
+}
+
+.light {
+  font-family: "JosefinSans-Light";
+}
+
+.bold{
+  font-family: "JosefinSans-Bold";
 }
