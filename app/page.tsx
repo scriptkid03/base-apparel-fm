@@ -38,14 +38,14 @@ export default function Home() {
 
             <div className="mt-10 max-sm:text-center">
               <h1 className="flex flex-col text-[40px] md:text-[80px] light text-desaturatedRed max-md:tracking-[5px] lg:tracking-[15px] leading-none">
-                WE'RE
+                WE&apos;RE
                 <span className="text-grayishRed">COMING SOON</span>
               </h1>
             </div>
 
             <div className="lg:pr-28">
               <p className="text-desaturatedRed max-sm:text-center">
-                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+                Hello fellow shoppers! We&apos;re currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
               </p>
             </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="block max-md:w-[30%] w-[40%] md:h-screen sm:bg-hero-mobile  md:bg-hero-desktop bg-no-repeat bg-center bg-cover"></div>
+        <div className="block max-md:w-[30%] w-[40%] md:h-screen max-sm:bg-hero-mobile md:bg-hero-desktop bg-no-repeat bg-center bg-cover"></div>
       </div>
     </main>
   );
